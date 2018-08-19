@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/media/sda7/plat_kernel_mtk/lk_porting'
+let g:netrw_dirhist_2='/media/sda7/plat_kernel_mtk/lk_porting/kernel'
+let g:netrw_dirhist_3='/media/disk2'
+let g:netrw_dirhist_4='/home/zzy'
