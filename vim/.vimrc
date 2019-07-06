@@ -5,6 +5,7 @@
 :set ls=2
 :set incsearch
 :set showcmd  " show incomplete command
+:set backspace=indent,eol,start
 syntax enable
 syntax on
 
@@ -51,10 +52,10 @@ command Gfile :execute 'vimgrep /' .expand('<cword>'). '/ ' .expand('%') | copen
 " map <C-l> :wincmd l<CR>
 
 " move in edit mode
-inoremap <C-h> <Left>
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-l> <Right>
+" inoremap <C-h> <Left>
+" inoremap <C-j> <Down>
+" inoremap <C-k> <Up>
+" inoremap <C-l> <Right>
 
 " easily way, resize window
 :map - <C-W>-
