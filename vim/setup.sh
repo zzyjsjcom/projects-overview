@@ -1,5 +1,7 @@
-#!/bin/bash
+#/bin/bash
 
-cp .vimrc ~/.vimrc
+dir=`dirname $0`
+
+cp ${dir}/.vimrc ~/.vimrc
 mkdir -p ~/.vim
-cp -r zzy_vim/* ~/.vim
+cp -r ${dir}/zzy_vim/* ~/.vim
